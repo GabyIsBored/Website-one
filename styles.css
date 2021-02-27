@@ -1,0 +1,133 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background-color: #25272E;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #25272E;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-board{
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.badge{
+    background: #E2584D;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#comp-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+ 
+.result > p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.action {
+    margin: 20px;
+}
+
+.action > p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px
+    
+}
+
+.choices {
+    margin-bottom: 50px 0;
+    text-align: center;
+}
+
+
+.choice {
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: black;
+}
+
+.compchoices {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.compchoice {
+     border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0  0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0  0 10px #d01115;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0  0 10px #25292b;
+}
+
+
+
+
+
