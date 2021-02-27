@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Roblox Player
+Exec=env WINEPREFIX="/home/gaby/.wine" wine C:\\\\Program\\ Files\\ \\(x86\\)\\\\Roblox\\\\Versions\\\\version-23850bffd15b4a88\\\\RobloxPlayerLauncher.exe -app
+Type=Application
+StartupNotify=true
+Icon=4B80_RobloxPlayerLauncher.0
+StartupWMClass=robloxplayerlauncher.exe

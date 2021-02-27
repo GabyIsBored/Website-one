@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Roblox Studio
+Exec=env WINEPREFIX="/home/gaby/.wine" wine C:\\\\Program\\ Files\\ \\(x86\\)\\\\Roblox\\\\Versions\\\\RobloxStudioLauncherBeta.exe -ide
+Type=Application
+StartupNotify=true
+Icon=A67C_RobloxStudioLauncherBeta.0
+StartupWMClass=robloxstudiolauncherbeta.exe
